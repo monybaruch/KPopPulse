@@ -1,0 +1,23 @@
+{
+  "name": "kpoppulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "tw:build": "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monybaruch/KPopPulse.git"
+  },
+  "author": "Mony Baruch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monybaruch/KPopPulse/issues"
+  },
+  "homepage": "https://github.com/monybaruch/KPopPulse#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.4"
+  }
+}
